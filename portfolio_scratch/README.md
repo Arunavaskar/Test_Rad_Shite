@@ -62,5 +62,12 @@ Now we are going to start working our project and we are going to install other 
     
 ## Customizing Bootstrap
 
-8. 
+8. Create a partial custom  `Sass` file inside the "scss" folder. Give it name like "_custom.scss" where the underscore means that this scss is a partial file and is not meant to be compiled and directly used in the project. It is for storing/modifying bootstrap variables in this case. 
+    * Now import the entire bootstrap in the "_custom.scss" file. 
+
+    `@import"../node_modules/bootstrap/scss/bootstrap.scss";`
+
+    * 
+    _
+
 
