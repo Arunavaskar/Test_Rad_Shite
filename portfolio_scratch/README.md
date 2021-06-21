@@ -67,7 +67,43 @@ Now we are going to start working our project and we are going to install other 
 
     `@import"../node_modules/bootstrap/scss/bootstrap.scss";`
 
-    * 
-    _
+**The file structure till now**
 
+```
+Portfolio_scratch/
+|
+|__assets/css/         
+|   |__style.css
+|   |__style.css.map
+|
+|__node_modules/
+|   |__bootstrap/
+|       |__js/
+|       |__scss/
+|
+|__scss/
+|   |__ _custom.scss
+|   |__style.scss
+|
+|__theming-kit.html
+```
+**`assets/css/`**
+
+here will be the js and css files that will be directly used by the main html/index html page of the project
+
+**`node_modules/`**
+
+this is just the node modules folder containing the bootstrap files(javascript and scss)
+
+**`scss/`**
+
+this folder will contain all the `Sass`/`.scss` files that will actually be edited and then compiled into a `.css` file and that output file will be available in the `assets/css/` folder. 
+
+In this folder the `_custom.scss` file will have a direct import of boot strap, i.e: `@import"../node_modules/bootstrap/scss/bootstrap.scss";` which will directly import all the bootstrap 5 components into the `_custom.scss` file. 
+
+The `style.css` file will use the `@use` tool to import the `_custom.scss` file for using as bootstrap. 
+
+`@use 'custom'`
+
+`_custom.scss` will actually be used to edit the bootstrap variables. It's a basic process of copying varibales from the bootstrap file and pasting them in this file for updating there values accordingly. 
 
