@@ -107,3 +107,5 @@ The `style.css` file will use the `@use` tool to import the `_custom.scss` file 
 
 `_custom.scss` will actually be used to edit the bootstrap variables. It's a basic process of copying varibales from the bootstrap file and pasting them in this file for updating there values accordingly. 
 
+https://www.youtube.com/watch?v=T5aKuyqPm5A&list=PLb6bnKCHlCwmlv01_eHzVfQHhThBAXgW5&index=22
+
